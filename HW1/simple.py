@@ -2,7 +2,7 @@ import os
 os.system('CLS')#clear для систем Linux
 
 def valid(n):
-    if n.isdigit() == True and 0 <= int(n) <= 100000:
+    if n.isdigit() == True and 1 <= int(n) <= 100000:
         return True
     else:
         return False
@@ -24,5 +24,5 @@ while f > 0:
             f = 1
             break
     else:
-        print("Необходимо ввести число от 0 до 100000")
+        print("Необходимо ввести число от 1 до 100000")
         num = input("Введите число: ")
