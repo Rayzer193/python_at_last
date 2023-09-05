@@ -22,17 +22,7 @@ def fraction_reduction(ch,zn):
 
     return(str(int(ch))+"/"+str(int(zn)))
 
-def frac_exm(l,k):
-    a1 = "0x"+str(l)
-    a2 = hex(k)
-    if a1 == a2:
-        print(f"Перевод произведен удачно.Программа посчитала '{a1}' а функция 'hex' выдала '{a2}'")
-        return True
-    else:
-        print(f"Что-то пошло не так. Программа посчитала '{a1}' а функция 'hex' выдала '{a2}'")
-        return False
-
-def hex_exm(l,k,s,m):
+def frac_exm(l,k,s,m):
     summ = s
     multl = m
     a = Fraction(l)
@@ -63,7 +53,7 @@ while flag == 0:
         mult= fraction_reduction(ch_dr_mult,zn_dr_mult)
         print("Сумма дробей равна :" ,sum)
         print("Произведение дробей равно :" ,mult,"\n")
-        hex_exm(a1,a2,sum,mult)
+        frac_exm(a1,a2,sum,mult)
         flag = 1
 
     else:
