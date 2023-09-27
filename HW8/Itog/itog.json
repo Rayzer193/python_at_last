@@ -1,0 +1,42 @@
+[
+    {
+        "Type": "Dir",
+        "Name": "Dir",
+        "Size": 2014
+    },
+    {
+        "Type": "Folder",
+        "Name": "test1.txt",
+        "Size": 670
+    },
+    {
+        "Type": "Folder",
+        "Name": "test_.py",
+        "Size": 706
+    },
+    {
+        "Type": "Folder",
+        "Name": "text2.txt",
+        "Size": 638
+    },
+    {
+        "Type": "Dir",
+        "Name": "Itog",
+        "Size": 29
+    },
+    {
+        "Type": "Folder",
+        "Name": "results.csv",
+        "Size": 22
+    },
+    {
+        "Type": "Folder",
+        "Name": "results.json",
+        "Size": 2
+    },
+    {
+        "Type": "Folder",
+        "Name": "results.pkl",
+        "Size": 5
+    }
+]
